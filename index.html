@@ -14,8 +14,10 @@
           <li><a href="">Портфолио</a></li>
           <li><a href="">Контакты</a></li>
         </ul>
-        <a href="mailto:info@devstudio.com">info@devstudio.com</a>
-        <a href="tel:380961111111">+38 096 111 11 11</a>
+        <ul>
+          <li><a href="mailto:info@devstudio.com">info@devstudio.com</a></li>
+          <li><a href="tel:380961111111">+38 096 111 11 11</a></li>
+        </ul>
       </nav>
     </header>
     <main>
@@ -54,22 +56,27 @@
           </li>
         </ul>
       </section>
-      <hr />
       <!--Чем мы занимаемся-->
       <section>
         <h2>Чем мы занимаемся</h2>
         <ul>
           <li>
-            <img src="./img/box1.jpg" alt="ноутбук" width="370" />
-            <a href=""><h3>Десктопные приложения</h3></a>
+            <a href=""
+              ><img src="./img/box1.jpg" alt="ноутбук" width="370" />
+              <h3>Десктопные приложения</h3></a
+            >
           </li>
           <li>
-            <img src="./img/box2.jpg" alt="смарфон" width="370" />
-            <a href=""><h3>Мобильные приложения</h3></a>
+            <a href=""
+              ><img src="./img/box2.jpg" alt="смарфон" width="370" />
+              <h3>Мобильные приложения</h3></a
+            >
           </li>
           <li>
-            <img src="./img/box3.jpg" alt="монитор" width="370" />
-            <a href=""><h3>Дизайнерские решения</h3></a>
+            <a href=""
+              ><img src="./img/box3.jpg" alt="монитор" width="370" />
+              <h3>Дизайнерские решения</h3></a
+            >
           </li>
         </ul>
       </section>
@@ -78,7 +85,7 @@
         <h2>Наша команда</h2>
         <ul lang="en">
           <li>
-            <img src="./img/img(1).jpg" alt="Фото Джона" width="270" />
+            <img src="./img/img(1).jpg" alt="John Smith" width="270" />
             <h3>John Smith</h3>
             <p>Product designer</p>
             <ul>
@@ -89,7 +96,7 @@
             </ul>
           </li>
           <li>
-            <img src="./img/img(2).jpg" alt="Фото Марты" width="270" />
+            <img src="./img/img(2).jpg" alt="Marta Stewart" width="270" />
             <h3>Marta Stewart</h3>
             <p>Frontend developer</p>
             <ul>
@@ -100,7 +107,7 @@
             </ul>
           </li>
           <li>
-            <img src="./img/img(3).jpg" alt="Фото Роберта" width="270" />
+            <img src="./img/img(3).jpg" alt="Robert Jakis" width="270" />
             <h3>Robert Jakis</h3>
             <p>Marketing</p>
             <ul>
@@ -111,7 +118,7 @@
             </ul>
           </li>
           <li>
-            <img src="./img/img(4).jpg" alt="Фото Мартина" />
+            <img src="./img/img(4).jpg" alt="Martin Doe" />
             <h3>Martin Doe</h3>
             <p>UI Desinger</p>
             <ul>
@@ -137,26 +144,26 @@
       </section>
     </main>
     <footer>
-      <ul>
-        <li>
-          <a href="">Web Studio</a>
-          <address>
-            г. Киев, пр-т Леси Украинки, 26<br />
-            <a href="mailto:info@example.com">info@example.com</a>
-            <a href="tel:380991111111"> +38 099 111 11 11</a>
-          </address>
-        </li>
-        <li>
-          <p>присоединяйтесь</p>
-          <ul>
-            <li><a href="">Instagram</a></li>
-            <li><a href="">Twitter</a></li>
-            <li><a href="">Facebook</a></li>
-            <li><a href="">LinkedIn</a></li>
-          </ul>
-        </li>
-        <li>
-          <p>Подпишитесь на рассылку</p>
+      <div>
+        <a href="">Web Studio</a>
+        <address>
+          г. Киев, пр-т Леси Украинки, 26<br />
+          <a href="mailto:info@example.com">info@example.com</a>
+          <a href="tel:380991111111"> +38 099 111 11 11</a>
+        </address>
+      </div>
+      <div>
+        <p>присоединяйтесь</p>
+        <ul>
+          <li><a href="">Instagram</a></li>
+          <li><a href="">Twitter</a></li>
+          <li><a href="">Facebook</a></li>
+          <li><a href="">LinkedIn</a></li>
+        </ul>
+      </div>
+      <div>
+        <p>Подпишитесь на рассылку</p>
+        <form>
           <input
             type="text"
             placeholder="E-mail"
@@ -164,10 +171,9 @@
             id="Email-input"
           />
           <input type="submit" value="Подписаться" />
-        </li>
-      </ul>
-      <hr />
-      <p>2020 | Developed by GoIT Students</p>
+        </form>
+      </div>
+      <div>2020 | Developed by GoIT Students</div>
     </footer>
   </body>
 </html>
